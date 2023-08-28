@@ -4,8 +4,8 @@ const path = require("path");
 const session = require("express-session");
 const passport = require("passport");
 const bodyParser = require("body-parser");
-require("../new_project/config/mongoose");
-require('../new_project/config/passport-local-startegy'); // Uncomment if needed
+require("./config/mongoose");
+require('./config/passport-local-startegy'); 
 const port = process.env.PORT || 8000;
 
 dotenv.config({path: 'config/.env'});
@@ -34,11 +34,11 @@ app.use(express.static('./assets'));
 // authenticate
 app.use(passport.initialize());
 app.use(passport.session());
-app.use(passport.setAuthenticatedUser); // Include this middleware if needed
+app.use(passport.setAuthenticatedUser); 
 
 
 // express router
-app.use('/', require("../new_project/routes"));
+app.use('/', require("./routes"));
 
 app.listen(port, function(error) {
     if (error) {
