@@ -1,43 +1,63 @@
-              Student Interview Management Web App with CSV Export: Efficiently Organize Interviews, Track Results, and Download Data in CSV Format       
+# Team Career Camp Student Interview Database
+
+![GitHub stars](https://img.shields.io/github/stars/Mayank561/Coding-Ninjas-Backend-project-CSV-File)
+![GitHub license](https://img.shields.io/github/license/Mayank561/Coding-Ninjas-Backend-project-CSV-File)
+
+## Table of Contents
+- [Introduction](#introduction)
+- [Features](#features)
+- [Usage](#usage)
+- [Installation](#installation)
+- [Contributing](#contributing)
+- [License](#license)
+
+## Introduction
+The Team Career Camp Student Interview Database project allows you to maintain a database of student interviews for internal use. It stores essential details, including batch information, student details (college, placement status), course scores (DSA, WebD, React), interview details (company, date), and interview results.
+
+## Features
+- Sign Up and Sign In functionality for employees.
+- Manage a list of students, including adding new students.
+- Manage a list of interviews, including creating new interviews with dates.
+- Allocate students to interviews.
+- View a list of all students for a selected interview and mark their result status.
+
+## Usage
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/Mayank561/Coding-Ninjas-Backend-project-CSV-File.git
 
 
-🌟 Features
-- User Authentication: Securely sign up and sign in for employees.
-- Student Hub: Easily list students and add new ones on the fly.
-- Interview Scheduler: Organize interviews, set dates, and manage schedules.
-- Student-Allocation Magic: Allocate students smartly to interviews for efficient tracking.
-- Result Tracker: Quickly mark result statuses for students across interviews.
+1. Install the required dependencies:
+npm install
 
-- CSV Superpower: Download all data in a CSV for your convenience.
+2. Start the server:
+npm start
 
-💾 CSV Export
-Save your data as CSV! Just hit the "Download CSV" button. Columns include Student ID, Name, College, Status, Course Scores, Interview Date, Company, and Result.
+3. Open your web browser and access the application at http://localhost:8200.
 
-### Tools Used
+## Installation
+To install this project locally, follow these steps:
 
-- Nodejs
-- MongoDb
-- ExpressJs
-- Ejs
-- Bootstrap
+1. Clone the repository:
+
+git clone https://github.com/Mayank561/Coding-Ninjas-Backend-project-CSV-File.git
+
+2. Install the required dependencies:
+
+npm install
+
+3. Start the server:
+
+npm start
+
+4. Open your web browser and access the application at http://localhost:8200.
+
+## Contributing
+We welcome contributions from the community. If you'd like to contribute, please follow these guidelines:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and test thoroughly.
+4. Create a pull request with a clear description of your changes.
 
 
-
-
-🛠️ Installation:
-
-- Clone this repository: git clone https://github.com/Mayank561/Nodejs-Placement-cell-CSV-File.git
-
-- Navigate to the project: cd NEW_PROJECT
-
-- Let's grab dependencies: npm install
-
-- Create a .env file based on .env.example, and set those important variables.
-
-🚀 Usage
-- Start the magic: npm start
-- Environment Variables:
-    - PORT = [Your Port]
-    - SECRET = [Your Secret]
-    - MONGO_URI = [Your MongoDB Ur]
-- Access the portal at http://localhost:8000
