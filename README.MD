@@ -9,7 +9,6 @@
 - [Usage](#usage)
 - [Installation](#installation)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Introduction
 The Team Career Camp Student Interview Database project allows you to maintain a database of student interviews for internal use. It stores essential details, including batch information, student details (college, placement status), course scores (DSA, WebD, React), interview details (company, date), and interview results.
